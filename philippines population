@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Philippines Population</title>
+    <style>
+        /* Style to limit iframe size and control scrolling */
+        iframe {
+            width: 20%;
+            height: calc(50vh - 110px); /* Adjusted height to accommodate view */
+            border: none;
+            overflow: hidden;
+            position: fixed;
+            top: -175px; /* Position 10 pixels down from the top */
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <!-- Adjust the URL to the specific section of the webpage you want to embed -->
+    <iframe src="https://www.worldometers.info/world-population/philippines-population/" scrolling="no"></iframe>
+</body>
+
+</html>
